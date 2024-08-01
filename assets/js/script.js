@@ -29,7 +29,7 @@ function checkFlight(){
     if(!departureIATA || !arrivalIATA){
         console.log("error");
         showResult.textContent = `Select both departure and arrival airport!`;
-        // return;
+        return;
     }
 
     let flight = flights.find(
