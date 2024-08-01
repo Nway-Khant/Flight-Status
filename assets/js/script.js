@@ -42,7 +42,7 @@ function checkFlight(){
     
     if(flight && departureAp && arrivalAp){
         showResult.innerHTML = `
-        <h2 class="resulth2">Flight Status</h2>
+        <h2 class="resulth2">🛬 Flight Status 🛬</h2>
         <p class="subTitle">Departure Airport: <span class="details">${departureAp.name} (${departureAp.iata})</span></p>
         <p class="subTitle">Arrival Airport: <span class="details">${arrivalAp.name} (${arrivalAp.iata})</span></p>
         <p class="subTitle">Departure Time: <span class="details">${flight.departureTime}</span></p>
